@@ -24,21 +24,7 @@ let totalTime = 10 * 60; // 10 minutes in seconds
       updateTimer(); // show immediately
       timer = setInterval(updateTimer, 1000);
     };
-    
-   document.getElementById("ca").onclick = function(){
-    document.getElementById("loader").style.display = "flex";
-   }
-   document.getElementById("uk").onclick = function(){
-    document.getElementById("loader").style.display = "flex"
-   }
-   document.getElementById("us").onclick = function(){
-    document.getElementById("loader").style.display = "flex"
-   }
-   document.getElementById("btn").onclick = function(){
-    document.getElementById("loader").style.display = "flex"
-
-   }
-// LOADING ANIMATION
+    // LOADING ANIMATION
 window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
   const loadingText = document.getElementById("loadingText");
@@ -51,8 +37,17 @@ window.addEventListener("load", () => {
     loadingText.textContent = "Processing...";
   }, 3000);
 
-  // Step 3: Fade out the loader after 5 seconds total
-  setTimeout(() => {
-    loader.classList.add("fade-out");
-  }, 5000);
 });
+  
+document.getElementById("uk").onclick = function () {
+    document.getElementById("loader").style.display = "flex"
+}
+document.getElementById("us").onclick = function () {
+    document.getElementById("loader").style.display = "flex"
+}
+document.getElementById("ca").onclick = function () {
+    document.getElementById("loader").style.display = "flex"
+}
+document.getElementById("btn").onclick = function () {
+    document.getElementById("loader").style.display = "flex"
+}
