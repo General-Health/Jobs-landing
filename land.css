@@ -74,30 +74,35 @@ li a{
 .cont{
     margin-top: 30px;
     text-align: center;
+  
 }
 .enroll{
     background-color: gray;
     font-size: 30px;
     width: 40%;
+    margin-top:65px;
+    border-radius:5px;
 }
 .time{
     font-size: 40px;
     color:#ffb200 ;
+    margin-bottom:30px;
 }
 .txt{
-    font-size: 40px;
+    font-size: 29px;
     color:#008c5e;
+    font-weight:bold;
 }
   #uk{
-    width: 70%;
-    height:40px;
+    width: 60%;
+    height:30px;
     border:1px solid black;
     border-radius:25px;
     margin-bottom:40px;
     color:#008c5e;
     font-weight:bold;
     background: transparent;
-    font-size: 30px;
+    font-size: 25px;
     animation:tuk 4s linear infinite ;
 
 }
@@ -115,14 +120,14 @@ li a{
     }
 }
 #us{
-    width: 70%;
-    height:40px;
+    width: 60%;
+    height:30px;
     border:1px solid black;
     border-radius:25px;
     margin-bottom:15px;
     font-weight:bold;
     color:#008c5e;
-    font-size: 30px;
+    font-size: 25px;
     background: transparent;
     animation:us 5s linear infinite ;
 }
@@ -140,14 +145,14 @@ li a{
     }
 }
 #ca{
-    width: 70%;
-    height:40px;
+    width: 60%;
+    height:30px;
     border-radius:25px;
     border:1px solid black;
     margin-bottom:15px;
-    margin-top:50px;
+    margin-top:30px;
     font-weight:bold;
-    font-size: 30px;
+    font-size: 25px;
     color:#008c5e;
     background: transparent;
     animation:ca 3s linear infinite ;
@@ -172,9 +177,9 @@ li a{
     cursor: pointer;
    border-radius:25px;
     z-index: 0;
-    width:50%;
+    width:40%;
     background:#22873f;
-    font-size:35px;
+    font-size:30px;
     max-height: 50px;
     font-weight:bold;
     animation:glowing 2s linear infinite ;
@@ -198,7 +203,7 @@ li a{
 }
 @media(max-width:495px){
     .enroll{
-        width: 80%;
+        width: 50%;
     }
     #btn{
         width: 70%;
